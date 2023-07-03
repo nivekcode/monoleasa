@@ -11,7 +11,7 @@ describe('BazComponent', () => {
     expect(true).toBeTruthy();
   });
 
-  it('should display "Baz rocks" as a title', () => {
-    expect(sut.title).toBe('Baz rocks');
+  it('should display "Baz really rocks" as a title', () => {
+    expect(sut.title).toBe('Baz really rocks');
   });
 });
