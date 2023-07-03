@@ -12,6 +12,6 @@ describe('FooComponent', () => {
   });
 
   it('should display "Foo rocks" as a title', () => {
-    expect(sut.title).toBe('Foo rocks');
+    expect(sut.title).toBe('Foo really rocks');
   });
 });
