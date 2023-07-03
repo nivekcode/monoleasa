@@ -17,7 +17,8 @@
     "paths": {
       "@kreuzerk": ["libs/foo/src/index.ts"],
       "@kreuzerk/bar": ["libs/bar/src/index.ts"],
-      "@kreuzerk/baz": ["libs/baz/src/index.ts"]
+      "@kreuzerk/baz": ["libs/baz/src/index.ts"],
+      "@kreuzerk/foo": ["libs/foo/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -3,7 +3,19 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve --project monoleasa"
+    "start": "nx serve --project monoleasa",
+    "lint:bar": "nx lint --project bar",
+    "lint:baz": "nx lint --project baz",
+    "lint:foo": "nx lint --project foo",
+    "lint": "nx run-many --target=lint --all",
+    "test:bar": "nx test  --project bar",
+    "test:baz": "nx test  --project baz",
+    "test:foo": "nx test --project foo",
+    "test": "nx run-many --target=test --all",
+    "build:bar": "nx build  --project bar",
+    "build:baz": "nx build  --project baz",
+    "build:foo": "nx build --project foo",
+    "build": "nx run-many --target=build --all"
   },
   "private": true,
   "dependencies": {

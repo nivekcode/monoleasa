@@ -2,7 +2,9 @@ import {Component} from "@angular/core";
 
 @Component({
   standalone: true,
-  selector: 'baz',
-  template: `<h1>Baz rocks</h1>`
+  selector: 'monoleasa-baz',
+  template: `<h1>{{ title }}</h1>`
 })
-export class BazComponent {}
+export class BazComponent {
+  title = 'Baz rocks';
+}

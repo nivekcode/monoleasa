@@ -4,13 +4,15 @@ import {BazComponent} from "@kreuzerk/baz";
 
 @Component({
   standalone: true,
-  selector: 'bar',
+  selector: 'monoleasa-bar',
   imports: [
     BazComponent
   ],
   template: `
-    <h1>Bar rocks</h1>
-    <baz/>
+    <h1>{{ title }}</h1>
+    <monoleasa-baz/>
   `
 })
-export class BarComponent {}
+export class BarComponent {
+  title = 'Bar rocks';
+}
