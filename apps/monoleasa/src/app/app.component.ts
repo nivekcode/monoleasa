@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+
+import {FooComponent} from "@kreuzerk/monoleasa-foo";
+import {BarComponent} from "@kreuzerk/monoleasa-bar";
+
 import { NxWelcomeComponent } from './nx-welcome.component';
-import {FooComponent} from "@kreuzerk";
-import {BarComponent} from "@kreuzerk/bar";
 
 @Component({
   standalone: true,

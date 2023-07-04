@@ -1,6 +1,6 @@
 import {Component} from "@angular/core";
 
-import {BazComponent} from "@kreuzerk/baz";
+import {BazComponent} from "@kreuzerk/monoleasa-baz";
 
 @Component({
   standalone: true,

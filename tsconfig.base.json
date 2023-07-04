@@ -16,9 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@kreuzerk": ["libs/foo/src/index.ts"],
-      "@kreuzerk/bar": ["libs/bar/src/index.ts"],
-      "@kreuzerk/baz": ["libs/baz/src/index.ts"],
-      "@kreuzerk/foo": ["libs/foo/src/index.ts"]
+      "@kreuzerk/monoleasa-bar": ["libs/bar/src/index.ts"],
+      "@kreuzerk/monoleasa-baz": ["libs/baz/src/index.ts"],
+      "@kreuzerk/monoleasa-foo": ["libs/foo/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
