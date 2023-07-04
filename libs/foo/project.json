@@ -55,7 +55,7 @@
     "release": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "npx semantic-release --debug --extends=./libs/foo/.release.config.js && git pull"
+        "command": "git pull && npx semantic-release --debug --extends=./libs/foo/.release.config.js"
       }
     }
   }

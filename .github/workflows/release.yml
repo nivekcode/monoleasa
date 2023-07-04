@@ -15,7 +15,7 @@ jobs:
       - run: npx nx affected -t lint
       - run: npx nx affected -t test --configuration=ci
       - run: npx nx affected -t build
-      - run: npx nx affected -t release
+      - run: npx nx affected -t release --parallel=1
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
