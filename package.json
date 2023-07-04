@@ -8,6 +8,7 @@
     "lint:baz": "nx lint --project baz",
     "lint:foo": "nx lint --project foo",
     "lint": "nx run-many --target=lint --all",
+    "test:affected": "npx nx affected -t test",
     "test:bar": "nx test  --project bar",
     "test:baz": "nx test  --project baz",
     "test:foo": "nx test --project foo",

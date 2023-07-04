@@ -10,7 +10,7 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
-  it(`should have as title 'monoleasa'`, () => {
+  it(`should have a title 'monoleasa'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('monoleasa');
