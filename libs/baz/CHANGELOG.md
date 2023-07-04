@@ -1,3 +1,19 @@
+## [1.9.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.8.0...baz-v1.9.0) (2023-07-04)
+
+
+### Features
+
+* 🎸 adjust bar ([a621072](https://github.com/kreuzerk/monoleasa/commit/a621072845b05b8ce6ccb68d9a255db0e7429ba9))
+
+
+### Chores
+
+* 🤖 add nxignore ([7033906](https://github.com/kreuzerk/monoleasa/commit/7033906db777db2407359e5c8c2a8fdbff009ffa))
+* 🤖 dont commit versions back to package.json ([636b26d](https://github.com/kreuzerk/monoleasa/commit/636b26da67fcc787458106f6b17632c2a8238c82))
+* 🤖 move nxignore to the top ([b37a335](https://github.com/kreuzerk/monoleasa/commit/b37a335580afac837982457c237712be7b2e8893))
+* **release:** bar-v1.9.0 [skip ci] ([0ed3e76](https://github.com/kreuzerk/monoleasa/commit/0ed3e76cc66d9021357784ae00dea0666d46144f))
+* **release:** foo-v1.8.0 [skip ci] ([e308739](https://github.com/kreuzerk/monoleasa/commit/e308739c2caa5c553e5e9c9dfd8f7b96506b96c6))
+
 ## [1.8.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.7.0...baz-v1.8.0) (2023-07-04)
 
 
