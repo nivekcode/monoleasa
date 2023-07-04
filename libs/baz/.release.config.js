@@ -18,7 +18,7 @@ module.exports = {
     ],
     '@semantic-release/npm',
     ["@semantic-release/exec", {
-      prepareCmd: 'PACKAGE_NAME=@kreuzerk/baz VERSION=${nextRelease.version} npm run bump-version:' + libName + ' && npm run update-deps',
+      prepareCmd: 'VERSION=${nextRelease.version} npm run bump-version:' + libName + ' && PACKAGE_NAME=@kreuzerk/baz VERSION=${nextRelease.version} npm run update-deps',
     }],
     [
       '@semantic-release/git',
