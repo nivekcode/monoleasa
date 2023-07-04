@@ -1,3 +1,17 @@
+## [1.4.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.3.0...baz-v1.4.0) (2023-07-04)
+
+
+### Features
+
+* 🎸 improve baz ([e0977fe](https://github.com/kreuzerk/monoleasa/commit/e0977fe234ec54ad4fb4317c5fe446b219da8434))
+
+
+### Chores
+
+* 🤖 update dist not lib ([598e9b0](https://github.com/kreuzerk/monoleasa/commit/598e9b0b9b4945ba78278bb5069307747e33a3fb))
+* **release:** bar-v1.4.0 [skip ci] ([53a5441](https://github.com/kreuzerk/monoleasa/commit/53a5441eb653ffb882370daedae3e5942056b6f7))
+* **release:** foo-v1.3.0 [skip ci] ([234e966](https://github.com/kreuzerk/monoleasa/commit/234e9660980a81737a1b4ede969de5f961363e88))
+
 ## [1.3.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.2.0...baz-v1.3.0) (2023-07-04)
 
 
