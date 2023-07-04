@@ -1,3 +1,20 @@
+## [1.7.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.6.0...baz-v1.7.0) (2023-07-04)
+
+
+### Features
+
+* 🎸 improve bar ([6006eb6](https://github.com/kreuzerk/monoleasa/commit/6006eb66929a3debdbf93e7dd8867a933f62cc2f))
+
+
+### Chores
+
+* 🤖 add missing commit analyzer plugin ([7d9e00e](https://github.com/kreuzerk/monoleasa/commit/7d9e00e2119e51d9952a197e0274dbd2845f7742))
+* 🤖 add release generator dep ([11eb25e](https://github.com/kreuzerk/monoleasa/commit/11eb25e08ac4ae1e9307156c69ef318c82f90314))
+* 🤖 add semantic release npm ([84b6d99](https://github.com/kreuzerk/monoleasa/commit/84b6d99513da45bfb5642325f831281def0efe15))
+* 🤖 switch to semantic release ([e161438](https://github.com/kreuzerk/monoleasa/commit/e16143892979801df5db0eedfb6e86d74a011a6d))
+* **release:** bar-v1.7.0 [skip ci] ([7a526f3](https://github.com/kreuzerk/monoleasa/commit/7a526f33d55bcbeb8168c7ed1533c5f09aed80c0))
+* **release:** foo-v1.6.0 [skip ci] ([0c49783](https://github.com/kreuzerk/monoleasa/commit/0c49783e12c7ed9350fab467c0bb64be15d6a01c))
+
 ## [1.6.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.5.0...baz-v1.6.0) (2023-07-04)
 
 
