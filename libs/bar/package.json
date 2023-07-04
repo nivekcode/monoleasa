@@ -1,6 +1,5 @@
 {
   "name": "@kreuzerk/monoleasa-bar",
-  "version": "1.9.0",
   "publishConfig": {
     "access": "public"
   },
