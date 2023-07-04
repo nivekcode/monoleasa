@@ -1,6 +1,9 @@
 {
-  "name": "@kreuzerk/bar",
+  "name": "@kreuzerk/monoleasa-bar",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@angular/common": "^16.1.0",
     "@angular/core": "^16.1.0"
