@@ -17,9 +17,13 @@ module.exports = {
       },
     ],
     '@semantic-release/npm',
+    ["@semantic-release/exec", {
+      prepareCmd: 'VERSION=${nextRelease.version} npm run bump-version:' + libName
+    }],
     [
       '@semantic-release/git',
       {
+        assets: [`${libPath}/package.json`, `${libPath}/CHANGELOG.md`],
         message:
           `chore(release): ${artifactName}` +
           '-v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
