@@ -14,5 +14,5 @@ import {BazComponent} from "@kreuzerk/monoleasa-baz";
   `
 })
 export class BarComponent {
-  title = 'Bar rocks';
+  title = 'Bar really rocks';
 }
