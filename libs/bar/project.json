@@ -52,7 +52,7 @@
     "updateDeps": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "npx rjp ./libs/foo/package.json $PACKAGE_NAME $VERSION"
+        "command": "npx rjp ./dist/libs/foo/package.json $PACKAGE_NAME $VERSION"
       }
     }
   }
