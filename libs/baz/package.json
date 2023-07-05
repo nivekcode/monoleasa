@@ -1,5 +1,6 @@
 {
   "name": "@kreuzerk/monoleasa-baz",
+  "version": "1.9.0",
   "publishConfig": {
     "access": "public"
   },
