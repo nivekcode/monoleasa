@@ -17,6 +17,9 @@
     "build:baz": "nx build  --project baz",
     "build:foo": "nx build --project foo",
     "build": "nx run-many --target=build --all",
+    "bump-version:bar": "rjp libs/bar/package.json version $VERSION",
+    "bump-version:baz": "rjp libs/baz/package.json version $VERSION",
+    "bump-version:foo": "rjp libs/baz/package.json version $VERSION",
     "update-deps": "npx nx affected -t updateDeps PACKAGE_NAME=$PACKAGE_NAME VERSION=$VERSION"
   },
   "private": true,
