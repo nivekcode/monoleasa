@@ -1,3 +1,19 @@
+## [1.10.0](https://github.com/kreuzerk/monoleasa/compare/foo-v1.9.0...foo-v1.10.0) (2023-07-05)
+
+
+### Features
+
+* 🎸 improve bar ([1ce2008](https://github.com/kreuzerk/monoleasa/commit/1ce20082eb9e5910a582481efebd6ad7c8177713))
+* 🎸 improve foo ([9c5d309](https://github.com/kreuzerk/monoleasa/commit/9c5d309ef68b82c3897eee7f3184d779838e8dae))
+
+
+### Chores
+
+* 🤖 adjust release config ([0acaaf5](https://github.com/kreuzerk/monoleasa/commit/0acaaf54ffb9228bf3797b6fae7347dc2344cad3))
+* 🤖 fix release configs ([f2dcda2](https://github.com/kreuzerk/monoleasa/commit/f2dcda27f35a6419506d97055441ddba1e06ea6b))
+* 🤖 reintroduce versions ([29842b5](https://github.com/kreuzerk/monoleasa/commit/29842b53fae0ac676e5a157619ce44f84cb37e6c))
+* **release:** bar-v1.11.0 [skip ci] ([3c3896f](https://github.com/kreuzerk/monoleasa/commit/3c3896fa99b81de4b3ad98f7a7a52bcc14085898))
+
 ## [1.9.0](https://github.com/kreuzerk/monoleasa/compare/foo-v1.8.0...foo-v1.9.0) (2023-07-04)
 
 
