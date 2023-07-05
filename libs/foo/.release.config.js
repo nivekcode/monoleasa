@@ -1,6 +1,7 @@
 const libName = 'foo';
 const libPath = `libs/${libName}`;
-const artifactName = libName;
+const importPath = `@kreuzerk/monoleasa-${libName}`;
+
 module.exports = {
   name: libName,
   pkgRoot: `dist/${libPath}`,
@@ -18,14 +19,14 @@ module.exports = {
     ],
     '@semantic-release/npm',
     ["@semantic-release/exec", {
-      prepareCmd: 'VERSION=${nextRelease.version} PACKAGE_NAME=@kreuzerk/monoleasa-foo npm run update-deps',
+      prepareCmd: `PACKAGE_NAME=${importPath} VERSION=\${nextRelease.version} npm run update-deps`,
     }],
     [
       '@semantic-release/git',
       {
         assets: [`${libPath}/package.json`, `${libPath}/CHANGELOG.md`],
         message:
-          `chore(release): ${artifactName}` +
+          `chore(release): ${libName}` +
           '-v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],

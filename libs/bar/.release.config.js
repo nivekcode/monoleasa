@@ -1,5 +1,6 @@
 const libName = 'bar';
 const libPath = `libs/${libName}`;
+const importPath = `@kreuzerk/monoleasa-${libName}`;
 const artifactName = libName;
 module.exports = {
   name: libName,
@@ -18,7 +19,7 @@ module.exports = {
     ],
     '@semantic-release/npm',
     ["@semantic-release/exec", {
-      prepareCmd: 'PACKAGE_NAME=@kreuzerk/monoleasa-bar VERSION=${nextRelease.version} npm run update-deps',
+      prepareCmd: `PACKAGE_NAME=${importPath} VERSION=\${nextRelease.version} npm run update-deps`,
     }],
     [
       '@semantic-release/git',
