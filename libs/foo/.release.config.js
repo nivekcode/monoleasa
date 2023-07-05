@@ -19,7 +19,7 @@ module.exports = {
     ],
     '@semantic-release/npm',
     ["@semantic-release/exec", {
-      prepareCmd: `VERSION=\${nextRelease.version} npm run bump-version:${libName} && PACKAGE_NAME=${importPath} VERSION=\${nextRelease.version} npm run update-deps`,
+      prepareCmd: ` PACKAGE_NAME=${importPath} VERSION=\${nextRelease.version} npm run update-deps && VERSION=\${nextRelease.version} npm run bump-version:${libName}`,
     }],
     [
       '@semantic-release/git',
