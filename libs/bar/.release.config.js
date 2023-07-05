@@ -1,7 +1,7 @@
 const libName = 'bar';
 const libPath = `libs/${libName}`;
 const importPath = `@kreuzerk/monoleasa-${libName}`;
-const artifactName = libName;
+
 module.exports = {
   name: libName,
   pkgRoot: `dist/${libPath}`,
@@ -26,7 +26,7 @@ module.exports = {
       {
         assets: [`${libPath}/package.json`, `${libPath}/CHANGELOG.md`],
         message:
-          `chore(release): ${artifactName}` +
+          `chore(release): ${libName}` +
           '-v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
