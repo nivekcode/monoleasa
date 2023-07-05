@@ -20,7 +20,7 @@
     "bump-version:bar": "rjp libs/bar/package.json version $VERSION",
     "bump-version:baz": "rjp libs/baz/package.json version $VERSION",
     "bump-version:foo": "rjp libs/foo/package.json version $VERSION",
-    "update-deps": "npx nx affected -t update-deps PACKAGE_NAME=$PACKAGE_NAME VERSION=$VERSION --base=main"
+    "update-deps": "PACKAGE_NAME=$PACKAGE_NAME VERSION=$VERSION npx nx run-many -t update-deps"
   },
   "private": true,
   "dependencies": {
