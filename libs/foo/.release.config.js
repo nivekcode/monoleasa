@@ -5,7 +5,7 @@ const importPath = `@kreuzerk/monoleasa-${libName}`;
 module.exports = {
   name: libName,
   pkgRoot: `dist/${libPath}`,
-  tagFormat: artifactName + '-v${version}',
+  tagFormat: libName + '-v${version}',
   commitPaths: [`${libPath}/*`],
   assets: [`${libPath}/README.md`, `${libPath}/CHANGELOG.md`],
   plugins: [
