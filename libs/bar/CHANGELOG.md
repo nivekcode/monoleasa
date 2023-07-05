@@ -1,3 +1,19 @@
+## [1.13.0](https://github.com/kreuzerk/monoleasa/compare/bar-v1.12.0...bar-v1.13.0) (2023-07-05)
+
+
+### Features
+
+* 🎸 baz rocks ([3e3aff4](https://github.com/kreuzerk/monoleasa/commit/3e3aff4b239c08fe2536a0555c052c64ad80fd93))
+* 🎸 foo rocks ([8889ba3](https://github.com/kreuzerk/monoleasa/commit/8889ba35a6b1e02868d0f2a885dbc41b463b29bb))
+
+
+### Chores
+
+* 🤖 adjust build config ([c659972](https://github.com/kreuzerk/monoleasa/commit/c6599728aa4655897f5a6c93e7e137c3ca3b7e1a))
+* **release:** baz-v1.10.0 [skip ci] ([4668427](https://github.com/kreuzerk/monoleasa/commit/4668427468a794a12169117584d7ec0bd225c3b0))
+* **release:** foo-v1.11.0 [skip ci] ([45b2b8e](https://github.com/kreuzerk/monoleasa/commit/45b2b8e5c6fe90cd18dd982f794d71d3f15de028))
+* **release:** foo-v1.12.0 [skip ci] ([e88edf9](https://github.com/kreuzerk/monoleasa/commit/e88edf984b2615e83c01e402a4d505e5686b3c6d))
+
 ## [1.12.0](https://github.com/kreuzerk/monoleasa/compare/bar-v1.11.0...bar-v1.12.0) (2023-07-05)
 
 
