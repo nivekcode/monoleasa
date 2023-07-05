@@ -1,3 +1,29 @@
+## [1.10.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.9.0...baz-v1.10.0) (2023-07-05)
+
+
+### Features
+
+* 🎸 bar rocks ([6794e88](https://github.com/kreuzerk/monoleasa/commit/6794e88e5c67e30111d63f7a7c099acd29b8a9b2))
+* 🎸 baz rocks ([3e3aff4](https://github.com/kreuzerk/monoleasa/commit/3e3aff4b239c08fe2536a0555c052c64ad80fd93))
+* 🎸 foo rocks ([8889ba3](https://github.com/kreuzerk/monoleasa/commit/8889ba35a6b1e02868d0f2a885dbc41b463b29bb))
+* 🎸 improve bar ([1ce2008](https://github.com/kreuzerk/monoleasa/commit/1ce20082eb9e5910a582481efebd6ad7c8177713))
+* 🎸 improve foo ([9c5d309](https://github.com/kreuzerk/monoleasa/commit/9c5d309ef68b82c3897eee7f3184d779838e8dae))
+
+
+### Chores
+
+* 🤖 adjust build config ([c659972](https://github.com/kreuzerk/monoleasa/commit/c6599728aa4655897f5a6c93e7e137c3ca3b7e1a))
+* 🤖 adjust release config ([0acaaf5](https://github.com/kreuzerk/monoleasa/commit/0acaaf54ffb9228bf3797b6fae7347dc2344cad3))
+* 🤖 commit back the version ([45e6fe9](https://github.com/kreuzerk/monoleasa/commit/45e6fe9fea9be8ce52c7ae9b7b15fa244d3c6d29))
+* 🤖 fix release configs ([f2dcda2](https://github.com/kreuzerk/monoleasa/commit/f2dcda27f35a6419506d97055441ddba1e06ea6b))
+* 🤖 reintroduce versions ([29842b5](https://github.com/kreuzerk/monoleasa/commit/29842b53fae0ac676e5a157619ce44f84cb37e6c))
+* **release:** bar-v1.10.0 [skip ci] ([12eea88](https://github.com/kreuzerk/monoleasa/commit/12eea884188db12e34285f289d9f400b97018dcd))
+* **release:** bar-v1.11.0 [skip ci] ([3c3896f](https://github.com/kreuzerk/monoleasa/commit/3c3896fa99b81de4b3ad98f7a7a52bcc14085898))
+* **release:** bar-v1.12.0 [skip ci] ([64a33a2](https://github.com/kreuzerk/monoleasa/commit/64a33a2258461a116735af53e2eefbcde0c0e0a0))
+* **release:** foo-v1.10.0 [skip ci] ([a0084f8](https://github.com/kreuzerk/monoleasa/commit/a0084f882774a268cf39acd65e173944c6034f95))
+* **release:** foo-v1.11.0 [skip ci] ([45b2b8e](https://github.com/kreuzerk/monoleasa/commit/45b2b8e5c6fe90cd18dd982f794d71d3f15de028))
+* **release:** foo-v1.9.0 [skip ci] ([f82d3c9](https://github.com/kreuzerk/monoleasa/commit/f82d3c944db6b9d7574497cfe885cdc20c67da13))
+
 ## [1.9.0](https://github.com/kreuzerk/monoleasa/compare/baz-v1.8.0...baz-v1.9.0) (2023-07-04)
 
 
